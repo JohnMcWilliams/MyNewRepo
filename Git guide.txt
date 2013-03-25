@@ -1,0 +1,24 @@
+
+
+1. Create repo on GitHub
+2. Make sure HTTP option is selected and click 'copy to clipboard' button
+3. Go to terminal, and cd to rails_projects
+4. git clone https://github.com/JohnMcWilliams/MyNewRepo.git
+   (i.e. type in 'git clone' and then paste)
+
+5. cd into the new repo
+6. touch anyfile.txt    (creates a file)
+7. subl anyfile.txt     (launches sublime)
+8. Edit the contents, hit save and return to Terminal
+9. git status      --> tells you there is an untracked file
+10. git add .      --> tell git to add all untracked files
+    git add anyfile.txt
+11. git commit -m "Put a descriptive message here"
+12. git push -u origin master
+
+
+EXPLANATIONS
+============
+git add     --> add a file to the list of files ready for commit
+git commit  --> commit all added files (locally)
+git push    --> share with others
